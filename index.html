@@ -1,343 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="A layout example that shows off a responsive product landing page."
-    />
-    <title>Jos&eacute; Pedro Pinto</title>
-    <link href="mypic.jpg" rel="icon" />
-    <link
-      crossorigin="anonymous"
-      href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
-      integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ"
-      rel="stylesheet"
-    />
-    <link
-      href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css"
-      rel="stylesheet"
-    />
-    <link
-      crossorigin="anonymous"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      rel="stylesheet"
-    />
-    <link href="styles.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div class="header">
-      <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-        <a class="pure-menu-heading" href="">Jos&eacute; Pedro Pinto </a>
-        <ul class="pure-menu-list">
-          <li class="pure-menu-item">
-            <a class="pure-menu-link" href="#">Home</a>
-          </li>
-          <li class="pure-menu-item">
-            <a class="pure-menu-link" href="#About">About</a>
-          </li>
-          <li class="pure-menu-item">
-            <a class="pure-menu-link" href="#Projects">Projects</a>
-          </li>
-          <li class="pure-menu-item">
-            <a class="pure-menu-link" href="#Contacts">Contacts</a>
-          </li>
-          <li class="pure-menu-item">
-            <a class="pure-menu-link" href="CV.pdf" target="_blank">CV</a>
-          </li>
-        </ul>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A layout example that shows off a responsive product landing page." />
+  <title>Jos&eacute; Pedro Pinto</title>
+  <link href="mypic.jpg" rel="icon" />
+  <link crossorigin="anonymous" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" rel="stylesheet" />
+  <link href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" rel="stylesheet" />
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+      <a class="pure-menu-heading" href="">Jos&eacute; Pedro Pinto </a>
+      <ul class="pure-menu-list">
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="#">Home</a>
+        </li>
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="#About">About</a>
+        </li>
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="#Projects">Projects</a>
+        </li>
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="#Contacts">Contacts</a>
+        </li>
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="CV.pdf" target="_blank">CV</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="splash-container">
+    <img alt="Background" src="splash.jpg" style="height: 100%; width: 100%" />
+    <div class="splash">
+      <h1 class="splash-head">
+        Greetings!<br />
+        I&#39;m Jos&eacute; Pedro Pinto
+      </h1>
+
+      <p class="splash-subhead">
+        I&#39;m a 23 year old data science masters student<br />
+        Currently finishing my masters&nbsp;dissertation project
+      </p>
+      <a class="pure-button pure-button-secondary" href="#About">Meet me!</a>
+    </div>
+  </div>
+
+  <div class="content-wrapper" id="About">
+    <div class="content">
+      <h2 class="content-head is-center">
+        <br />
+        <br />
+        Education and job experience
+        <a class="pure-button pure-button-secondary" href="CV.pdf"
+          style="font-size: 16px; padding-top: 0.3%; padding-bottom: 0.3%" target="_blank">CV</a>
+      </h2>
+
+      <div class="pure-g">
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h3 class="content-subhead">Bachelors</h3>
+
+          <p>
+            In 2019 I have completed the bachelors in Computer science at FCUP
+            (faculdade de ciencias da universidade do porto). There was a
+            strong focus in theoretical mathematical concepts and statistics,
+            as well as general computer hardware and software knowledge. I
+            completed this course with a final average of 16 (out of 20).
+          </p>
+        </div>
+
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h3 class="content-subhead">Masters</h3>
+
+          <p>
+            I am currently on the second year of my masters in data science at
+            FCUP (faculdade de ciencias da universidade do porto), working on
+            my thesis. There has been, during this course, a focus on
+            artificial intelligence, machine learning and cloud computing. I
+            have finished this with an average grade of 18 (out 0f 20).
+          </p>
+        </div>
+
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h3 class="content-subhead">HDP summer internship</h3>
+
+          <p>
+            On the summer of 2019 completed my first internship, in the
+            german, Munich based, company HDP (health data pioneers). This was
+            an internship on front end web development for a drag and drop
+            form creation tool. I used javascript (ES6), REACT and docker. The
+            MVP was finished shortly after starting, with posterior iterative
+            improvements, both on terms of quantity as well as quality of
+            features.
+          </p>
+        </div>
+
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h3 class="content-subhead">INESC TEC summer internship</h3>
+
+          <p>
+            On the summer of 2020 I completed my second internship, in INESC
+            TEC, a portuguese company. The goal of the internship was the use
+            of deep learning models as well as hyperparameter tuning and
+            transfer learning methodologies to classify point clouds from
+            LIDAR. This goal was accomplished with very good results,
+            especially, taking into consideration the limitations both in
+            terms of the dataset and available computational resources.
+          </p>
+        </div>
+
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h3 class="content-subhead">Efacec transformer 4.0 project</h3>
+
+          <p>
+            From 2020 to 2021 I integrated in a multidisciplinary Efacec lead
+            project, including among others MIT, Efacec and INEGI. The
+            transformer 4.0 project aims at at bringing the power transformer
+            landscape into the new age of the Internet of Things,
+            interconnectivity, online monitoring and machine
+            learning/artificial intelligence applications. My role in this
+            project was as data engineer and machine learning specialist,
+            being responsible for full data science pipelines, from data
+            interpretation and reporting, to model optimization and
+            performance analysis.
+          </p>
+        </div>
       </div>
     </div>
 
-    <div class="splash-container">
-      <img
-        alt="Background"
-        src="splash.jpg"
-        style="height: 100%; width: 100%"
-      />
-      <div class="splash">
-        <h1 class="splash-head">
-          Greetings!<br />
-          I&#39;m Jos&eacute; Pedro Pinto
-        </h1>
-
-        <p class="splash-subhead">
-          I&#39;m a 23 year old data science masters student<br />
-          Currently finishing my masters&nbsp;dissertation project
-        </p>
-        <a class="pure-button pure-button-secondary" href="#About">Meet me!</a>
-      </div>
-    </div>
-
-    <div class="content-wrapper" id="About">
+    <div class="ribbon l-box-lrg pure-g" id="Projects">
       <div class="content">
-        <h2 class="content-head is-center">
-          <br />
-          <br />
-          Education and job experience
-          <a
-            class="pure-button pure-button-secondary"
-            href="CV.pdf"
-            style="font-size: 16px; padding-top: 0.3%; padding-bottom: 0.3%"
-            target="_blank"
-            >CV</a
-          >
-        </h2>
+        <h2 class="content-head is-center">PROJECTS</h2>
+
+        <p class="content-head is-center" style="text-transform: none">
+          I have, in my studies, internships and on my free time, developed a
+          large amount of projects of varying size and content.<br />
+          Below I present some of the ones I consider most interesting.
+        </p>
+
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h3>
+            <a class="content-subhead" href="https://github.com/Jose-Pedro-Pinto/DDDM-P1"
+              style="text-decoration: none">Masters in Data Science thesis
+            </a>
+          </h3>
+          <a href="Thesis.pdf"><img alt="Background" class="project-img" src="Thesis.png" />
+          </a>
+
+          <p>
+            This thesis was developed as part of the research grant provided
+            by the Efacec transformer 4.0 project. It entails the development
+            of a solution for a novel problem in the field; that of
+            identifying the most important Dissolved Gas Analysis (DGA) gases
+            for fault prediction in power transformers.
+          </p>
+        </div>
+
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h3>
+            <a class="content-subhead" href="https://github.com/Jose-Pedro-Pinto/DDDM-P1"
+              style="text-decoration: none">Farfetch brand recommender system
+            </a>
+          </h3>
+          <a href="ProjectPresent.html"><img alt="Background" class="project-img" src="ATDS.png" />
+          </a>
+
+          <p>
+            This was the last project of the advanced topics in data science
+            course where anonymized Farfetch data was utilized for the
+            development of a brand recommendation system. Association rules,
+            collaborative filtering and an open ended student selected
+            approach (for which I selected LSTMs) were utilized for this task.
+          </p>
+        </div>
+
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h3>
+            <a class="content-subhead" href="https://github.com/Jose-Pedro-Pinto/DDDM-P1"
+              style="text-decoration: none">Time Series prediction with LSTMs
+            </a>
+          </h3>
+          <a href="https://github.com/Jose-Pedro-Pinto/DDDM-P1"><img alt="Background" class="project-img"
+              src="dddm.jpg" />
+          </a>
+
+          <p>
+            This was the first project of DDDM, where we had to predict for an
+            unknown difficult time series. We could use any method we wanted,
+            as only the final predictions counted for grade and as such I used
+            LSTMs, obtaining the best results in class.
+          </p>
+        </div>
+
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h3>
+            <a class="content-subhead" href="https://github.com/Jose-Pedro-Pinto/DDDM-P3"
+              style="text-decoration: none">Optimization problem using AMPL
+            </a>
+          </h3>
+          <a href="https://github.com/Jose-Pedro-Pinto/DDDM-P3"><img alt="Background" class="project-img"
+              src="dddm3.jpg" />
+          </a>
+
+          <p>
+            This was the third project of DDDM, where we had to solve a
+            difficult optimization problem in a restricted amount of
+            computational time.<br />
+            In this facility location problem my solution surpassed all others
+            in class (including the professors), being the only one obtaining
+            the optimal value.
+          </p>
+        </div>
 
         <div class="pure-g">
           <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <h3 class="content-subhead">Bachelors</h3>
-
-            <p>
-              In 2019 I have completed the bachelors in Computer science at FCUP
-              (faculdade de ciencias da universidade do porto). There was a
-              strong focus in theoretical mathematical concepts and statistics,
-              as well as general computer hardware and software knowledge. I
-              completed this course with a final average of 16 (out of 20).
-            </p>
-          </div>
-
-          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <h3 class="content-subhead">Masters</h3>
-
-            <p>
-              I am currently on the second year of my masters in data science at
-              FCUP (faculdade de ciencias da universidade do porto), working on
-              my thesis. There has been, during this course, a focus on
-              artificial intelligence, machine learning and cloud computing. I
-              have finished this with an average grade of 18 (out 0f 20).
-            </p>
-          </div>
-
-          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <h3 class="content-subhead">HDP summer internship</h3>
-
-            <p>
-              On the summer of 2019 completed my first internship, in the
-              german, Munich based, company HDP (health data pioneers). This was
-              an internship on front end web development for a drag and drop
-              form creation tool. I used javascript (ES6), REACT and docker. The
-              MVP was finished shortly after starting, with posterior iterative
-              improvements, both on terms of quantity as well as quality of
-              features.
-            </p>
-          </div>
-
-          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <h3 class="content-subhead">INESC TEC summer internship</h3>
-
-            <p>
-              On the summer of 2020 I completed my second internship, in INESC
-              TEC, a portuguese company. The goal of the internship was the use
-              of deep learning models as well as hyperparameter tuning and
-              transfer learning methodologies to classify point clouds from
-              LIDAR. This goal was accomplished with very good results,
-              especially, taking into consideration the limitations both in
-              terms of the dataset and available computational resources.
-            </p>
-          </div>
-
-          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <h3 class="content-subhead">Efacec transformer 4.0 project</h3>
-
-            <p>
-              From 2020 to 2021 I integrated in a multidisciplinary Efacec lead
-              project, including among others MIT, Efacec and INEGI. The
-              transformer 4.0 project aims at at bringing the power transformer
-              landscape into the new age of the Internet of Things,
-              interconnectivity, online monitoring and machine
-              learning/artificial intelligence applications. My role in this
-              project was as data engineer and machine learning specialist,
-              being responsible for full data science pipelines, from data
-              interpretation and reporting, to model optimization and
-              performance analysis.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="ribbon l-box-lrg pure-g" id="Projects">
-        <div class="content">
-          <h2 class="content-head is-center">PROJECTS</h2>
-
-          <p class="content-head is-center" style="text-transform: none">
-            I have, in my studies, internships and on my free time, developed a
-            large amount of projects of varying size and content.<br />
-            Below I present some of the ones I consider most interesting.
-          </p>
-
-          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
             <h3>
-              <a
-                class="content-subhead"
-                href="https://github.com/Jose-Pedro-Pinto/DDDM-P1"
-                style="text-decoration: none"
-                >Masters in Data Science thesis
+              <a class="content-subhead" href="https://github.com/Jose-Pedro-Pinto/Python-Assorted"
+                style="text-decoration: none">Connect 4 web app
               </a>
             </h3>
-            <a href="Thesis.pdf"
-              ><img alt="Background" class="project-img" src="Thesis.png" />
+            <a href="https://github.com/Jose-Pedro-Pinto/TW-Final"><img alt="Background" class="project-img"
+                src="connect4.jpg" />
             </a>
 
             <p>
-              This thesis was developed as part of the research grant provided
-              by the Efacec transformer 4.0 project. It entails the development
-              of a solution for a novel problem in the field; that of
-              identifying the most important Dissolved Gas Analysis (DGA) gases
-              for fault prediction in power transformers.
+              This was the final project of the TW course in my bachelors.<br />
+              It involved the creation of a full stack connect 4 web game,
+              with base functionality, AI, highscores, local scores and more.
             </p>
           </div>
 
           <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
             <h3>
-              <a
-                class="content-subhead"
-                href="https://github.com/Jose-Pedro-Pinto/DDDM-P1"
-                style="text-decoration: none"
-                >Farfetch brand recommender system
+              <a class="content-subhead" href="https://github.com/Jose-Pedro-Pinto/Python-Assorted"
+                style="text-decoration: none">Python pygame bundle
               </a>
             </h3>
-            <a href="ProjectPresent.html"
-              ><img alt="Background" class="project-img" src="ATDS.png" />
+            <a href="https://github.com/Jose-Pedro-Pinto/Python-Assorted"><img alt="Background" class="project-img"
+                src="pygame.jpg" />
             </a>
 
             <p>
-              This was the last project of the advanced topics in data science
-              course where anonymized Farfetch data was utilized for the
-              development of a brand recommendation system. Association rules,
-              collaborative filtering and an open ended student selected
-              approach (for which I selected LSTMs) were utilized for this task.
+              This was one of the first projects I worked on.<br />
+              With the intent of learning some programing, having some visual
+              feedback and also a bit of fun, I created a compilation of small
+              games and applications in python using pygame.
             </p>
           </div>
-
-          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <h3>
-              <a
-                class="content-subhead"
-                href="https://github.com/Jose-Pedro-Pinto/DDDM-P1"
-                style="text-decoration: none"
-                >Time Series prediction with LSTMs
-              </a>
-            </h3>
-            <a href="https://github.com/Jose-Pedro-Pinto/DDDM-P1"
-              ><img alt="Background" class="project-img" src="dddm.jpg" />
-            </a>
-
-            <p>
-              This was the first project of DDDM, where we had to predict for an
-              unknown difficult time series. We could use any method we wanted,
-              as only the final predictions counted for grade and as such I used
-              LSTMs, obtaining the best results in class.
-            </p>
-          </div>
-
-          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <h3>
-              <a
-                class="content-subhead"
-                href="https://github.com/Jose-Pedro-Pinto/DDDM-P3"
-                style="text-decoration: none"
-                >Optimization problem using AMPL
-              </a>
-            </h3>
-            <a href="https://github.com/Jose-Pedro-Pinto/DDDM-P3"
-              ><img alt="Background" class="project-img" src="dddm3.jpg" />
-            </a>
-
-            <p>
-              This was the third project of DDDM, where we had to solve a
-              difficult optimization problem in a restricted amount of
-              computational time.<br />
-              In this facility location problem my solution surpassed all others
-              in class (including the professors), being the only one obtaining
-              the optimal value.
-            </p>
-          </div>
-
-          <div class="pure-g">
-            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-              <h3>
-                <a
-                  class="content-subhead"
-                  href="https://github.com/Jose-Pedro-Pinto/Python-Assorted"
-                  style="text-decoration: none"
-                  >Connect 4 web app
-                </a>
-              </h3>
-              <a href="https://github.com/Jose-Pedro-Pinto/TW-Final"
-                ><img alt="Background" class="project-img" src="connect4.jpg" />
-              </a>
-
-              <p>
-                This was the final project of the TW course in my bachelors.<br />
-                It involved the creation of a full stack connect 4 web game,
-                with base functionality, AI, highscores, local scores and more.
-              </p>
-            </div>
-
-            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-              <h3>
-                <a
-                  class="content-subhead"
-                  href="https://github.com/Jose-Pedro-Pinto/Python-Assorted"
-                  style="text-decoration: none"
-                  >Python pygame bundle
-                </a>
-              </h3>
-              <a href="https://github.com/Jose-Pedro-Pinto/Python-Assorted"
-                ><img alt="Background" class="project-img" src="pygame.jpg" />
-              </a>
-
-              <p>
-                This was one of the first projects I worked on.<br />
-                With the intent of learning some programing, having some visual
-                feedback and also a bit of fun, I created a compilation of small
-                games and applications in python using pygame.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="content" id="Contacts">
-        <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
-          <h4>Want to get in touch?</h4>
-
-          <p></p>
-
-          <ul class="pure-menu-list">
-            <li class="pure-menu-item">
-              <a>Personal Email</a>
-              <a class="pure-menu-link" href="mailto:me@josepedropinto.com">
-                me@josepedropinto.com
-              </a>
-            </li>
-            <li class="pure-menu-item">
-              <a>Phone no.</a> <a class="pure-menu-link"> +351 934 890 697 </a>
-            </li>
-            <li class="pure-menu-item">
-              <a>Github</a>
-              <a
-                class="pure-menu-link"
-                href="https://github.com/Jose-Pedro-Pinto"
-              >
-                Jose-Pedro-Pinto
-              </a>
-            </li>
-          </ul>
-
-          <p></p>
-
-          <h4>More Information</h4>
-
-          <p>
-            For more information, check my github page, send me an email or give
-            me a call.
-          </p>
         </div>
       </div>
     </div>
-  </body>
+
+    <div class="content" id="Contacts">
+      <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+        <h4>Want to get in touch?</h4>
+
+        <p></p>
+
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item">
+            <a>Personal Email</a>
+            <a class="pure-menu-link" href="mailto:me@josepedropinto.com">
+              me@josepedropinto.com
+            </a>
+          </li>
+          <li class="pure-menu-item">
+            <a>Phone no.</a> <a class="pure-menu-link"> +351 934 890 697 </a>
+          </li>
+          <li class="pure-menu-item">
+            <a>Github</a>
+            <a class="pure-menu-link" href="https://github.com/Jose-Pedro-Pinto">
+              Jose-Pedro-Pinto
+            </a>
+          </li>
+        </ul>
+
+        <p></p>
+
+        <h4>More Information</h4>
+
+        <p>
+          For more information, check my github page, send me an email or give
+          me a call.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
